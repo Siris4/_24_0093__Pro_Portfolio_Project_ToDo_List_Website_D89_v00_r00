@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #41AB5D; /* Green header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.save-list-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #41AB5D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.new-task-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.drag-handle {
+    cursor: move;
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+.task-name {
+    flex: 1;
+}
+
+.footer {
+    background-color: #41AB5D; /* Green footer */
+    height: 4px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
